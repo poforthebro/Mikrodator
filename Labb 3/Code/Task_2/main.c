@@ -1,17 +1,17 @@
 
-//====================================================================
+/*====================================================================
+
 TACCR0 = 2048-1; // PWM Period
 TACCTL1 = OUTMOD_3; // Output Mode 3:
 set/reset
 TACCR1 = 1024-1; // TACCR1 PWM Duty
 Cycle
 TACTL = TASSEL_2 + MC_1; // SMCLK, up mode
-//====================================================================
+
+====================================================================*/
 
 void main(void) {
   WDTCTL = WDTPW + WDTHOLD; // Stop WDT
-
-
 
   ADC10CTL0 = SREF_1 + ADC10SHT_2 + REFON + ADC10ON;
   ADC10CTL1 = INCH_1;     // input A1, pin P1.1

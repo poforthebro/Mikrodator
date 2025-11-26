@@ -14,7 +14,7 @@ void main(void) {
   
 }
 
-#pragma vector=ADC10MEM
+#pragma vector=ADC10_VECTOR
 __interrupt void ADC10_ISR(void) {
 
     while (ADC10CTL1 & ADC10BUSY) {
@@ -24,5 +24,5 @@ __interrupt void ADC10_ISR(void) {
         P1OUT &= ~0x01;         // Clear P1.0 LED off
          else P1OUT |= 0x01;         // Set P1.0 LED on
   }
-  ADC10CTL0 |= ENC + ADC10SC; // Sampling and conversion for next time
-  
+
+}
