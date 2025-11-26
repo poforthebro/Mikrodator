@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Task 3",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Task 3",
+                "resourceId": "/Task 3"
+            }
+        },
+        {
+            "name": "Task 1.3",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Task 1.3",
+                "resourceId": "/Task 1.3"
+            }
+        },
+        {
+            "name": "Task 1 (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Task 1",
+                "resourceId": "/Task 1"
+            }
+        },
+        {
+            "name": "Task 4",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Task 4",
+                "resourceId": "/Task 4"
+            }
+        },
+        {
+            "name": "Task 2",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Task 2",
+                "resourceId": "/Task 2"
+            }
+        }
+    ]
+}

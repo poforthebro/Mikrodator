@@ -1,0 +1,76 @@
+08:30:40 **** Clean-only build of configuration Debug for project Task 1.3 ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccs1040/ccs/eclipse/jre/bin/server;C:/ti/ccs1040/ccs/eclipse/jre/bin;C:/ti/ccs1040/ccs/eclipse/jre/lib/amd64;C:\Program Files\National Instruments\Shared\OpenVINO\;C:\Program Files\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files\IVI Foundation\VISA\Win64\bin;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\bin;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files\PowerShell\7\;C:\Users\leoki201\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccs1040\ccs\eclipse;]
+
+**** Build of configuration Debug for project Task 1.3 ****
+
+Nothing to build for project Task 1.3
+08:31:09 **** Clean-only build of configuration Debug for project Task 1.3 ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccs1040/ccs/eclipse/jre/bin/server;C:/ti/ccs1040/ccs/eclipse/jre/bin;C:/ti/ccs1040/ccs/eclipse/jre/lib/amd64;C:\Program Files\National Instruments\Shared\OpenVINO\;C:\Program Files\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files\IVI Foundation\VISA\Win64\bin;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\bin;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files\PowerShell\7\;C:\Users\leoki201\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccs1040\ccs\eclipse;]
+
+**** Build of configuration Debug for project Task 1.3 ****
+
+Nothing to build for project Task 1.3
+08:32:00 **** Clean-only build of configuration Debug for project Task 1.3 ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccs1040/ccs/eclipse/jre/bin/server;C:/ti/ccs1040/ccs/eclipse/jre/bin;C:/ti/ccs1040/ccs/eclipse/jre/lib/amd64;C:\Program Files\National Instruments\Shared\OpenVINO\;C:\Program Files\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files\IVI Foundation\VISA\Win64\bin;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\bin;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files\PowerShell\7\;C:\Users\leoki201\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccs1040\ccs\eclipse;]
+
+**** Build of configuration Debug for project Task 1.3 ****
+
+Nothing to build for project Task 1.3
+08:32:05 **** Clean-only build of configuration Debug for project Task 1.3 ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccs1040/ccs/eclipse/jre/bin/server;C:/ti/ccs1040/ccs/eclipse/jre/bin;C:/ti/ccs1040/ccs/eclipse/jre/lib/amd64;C:\Program Files\National Instruments\Shared\OpenVINO\;C:\Program Files\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files\IVI Foundation\VISA\Win64\bin;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\bin;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files\PowerShell\7\;C:\Users\leoki201\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccs1040\ccs\eclipse;]
+
+**** Build of configuration Debug for project Task 1.3 ****
+
+Nothing to build for project Task 1.3
+
+**** Clean-only build of configuration Debug for project jlfkjslksdjgl ****
+
+"C:\\ti\\ccs1040\\ccs\\utils\\bin\\gmake" -k -j 20 clean -O 
+ 
+gmake: *** No rule to make target 'clean'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project jlfkjslksdjgl ****
+
+"C:\\ti\\ccs1040\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccs1040/ccs/ccs_base/msp430/include" --include_path="C:/Users/leoki201/OneDrive - Linköpings universitet/Mikrodator/Labb 2/jlfkjslksdjgl" --include_path="C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "jlfkjslksdjgl.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"jlfkjslksdjgl.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccs1040/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="jlfkjslksdjgl_linkInfo.xml" --use_hw_mpy=none --rom_model -o "jlfkjslksdjgl.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "jlfkjslksdjgl.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project jlfkjslksdjgl ****
+
+"C:\\ti\\ccs1040\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'jlfkjslksdjgl.out' is up to date.
+
+**** Build Finished ****

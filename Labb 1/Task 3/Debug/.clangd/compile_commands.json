@@ -1,0 +1,7 @@
+[
+   {
+      "directory" : "/Users/java_se/Library/CloudStorage/OneDriveLiU/Mikrodator/Labb 1/Task 3/Debug",
+      "command"   : "clang++ -I\"/Applications/ti/ccs2031/ccs/ccs_base/msp430/include\" -I\"/Users/java_se/Library/CloudStorage/OneDriveLiU/Mikrodator/Labb 1/Task 3\" -I\"/Users/java_se/Library/CloudStorage/OneDriveLiU/Mikrodator/Labb 1/Task 3/GrLib/grlib\" -I\"/Users/java_se/Library/CloudStorage/OneDriveLiU/Mikrodator/Labb 1/Task 3/GrLib/fonts\" -I\"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430G2553__ -xc",
+      "file"      : "/Users/java_se/Library/CloudStorage/OneDriveLiU/Mikrodator/Labb 1/Task 3/Task3.1/main.c"
+   }
+]
