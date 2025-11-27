@@ -18,6 +18,15 @@
                 "name": "Task_1.1",
                 "resourceId": "/Task_1.1"
             }
+        },
+        {
+            "name": "Task_2",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Task_2",
+                "resourceId": "/Task_2"
+            }
         }
     ]
 }
