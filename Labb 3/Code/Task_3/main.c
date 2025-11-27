@@ -3,6 +3,8 @@
 
 int average(int input[]);
 volatile unsigned int avg;
+int numberOfDTC = 1000;
+int n = 0;
 
 int a[0x10] = {0}; // Define the array to use as DTC buffer
 
@@ -33,12 +35,14 @@ __interrupt void IntErruptFuncktion(void) {
   avg = average(a);
   ADC10SA = (unsigned int)a; // Restart DTC
 
-  // Visualize data
-  if(avg < 0x99) {
-    P1OUT |= BIT0;
-  } else {
-    P1OUT &= ~BIT0;
+
+
+  if(n == numberOfDTC) {
+    n = 0;
+    P1OUT ^= BIT0;
   }
+
+  ++n;
 
 }
 
