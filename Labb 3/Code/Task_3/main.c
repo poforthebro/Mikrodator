@@ -35,8 +35,6 @@ __interrupt void IntErruptFuncktion(void) {
   avg = average(a);
   ADC10SA = (unsigned int)a; // Restart DTC
 
-
-
   if(n == numberOfDTC) {
     n = 0;
     P1OUT ^= BIT0;
