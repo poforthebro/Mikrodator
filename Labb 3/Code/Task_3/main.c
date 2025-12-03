@@ -14,7 +14,7 @@ int main(void)
     WDTCTL = WDTPW + WDTHOLD;                 // Stop watchdog timer
     P1DIR |= BIT0;                            // Set P1.0 to output direction
     avg = 0;
-  ADC10CTL0 = SREF_1 + ADC10SHT_2 + REFON + ADC10ON + REF2_5V + ADC10IE + MSC; 
+    ADC10CTL0 = SREF_1 + ADC10SHT_2 + REFON + ADC10ON + REF2_5V + ADC10IE + MSC; 
   // Internal reference 1, Sample and hold time = 16 cycles, Internal reference v on, Turns on the ADC
 
     ADC10CTL1 = INCH_1 + CONSEQ_2; // input A1, pin P1.1, repeat single channel mdoe

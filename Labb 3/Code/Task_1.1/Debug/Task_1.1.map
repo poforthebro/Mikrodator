@@ -1,7 +1,7 @@
 ******************************************************************************
-                  MSP430 Linker PC v21.6.1                     
+                  MSP430 Linker Unix v21.6.1                   
 ******************************************************************************
->> Linked Thu Nov 27 09:17:15 2025
+>> Linked Tue Dec  2 13:12:25 2025
 
 OUTPUT FILE NAME:   <Task_1.1.out>
 ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 0000c03a
@@ -118,12 +118,12 @@ MODULE SUMMARY
 
        Module             code   ro data   rw data
        ------             ----   -------   -------
-    .\
+    ./
        main.obj           58     0         0      
     +--+------------------+------+---------+---------+
        Total:             58     0         0      
                                                   
-    C:\ti\ccs2031\ccs\tools\compiler\ti-cgt-msp430_21.6.1.LTS\lib\rts430_eabi.lib
+    /Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib/rts430_eabi.lib
        boot.c.obj         20     2         0      
        isr_trap.asm.obj   8      0         0      
        exit.c.obj         6      0         0      
