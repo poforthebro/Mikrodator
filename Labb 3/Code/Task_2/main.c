@@ -11,7 +11,6 @@ void main(void) {
   TACCR1 = 1024-1; // TACCR1 PWM Duty Cycle
   TACTL = TASSEL_2 + MC_1; // SMCLK, up mode
 
-  
   //====================================================================
   // VR+ = VREF+ which becomes 2.5V
   // VR- = VSS which becomes 0V
