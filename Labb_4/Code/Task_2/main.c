@@ -1,19 +1,23 @@
+
 #include <msp430g2553.h>
-int a = 0;
+#include<intrinsics.h>
+
 void main(void)
 {
-WDTCTL = WDTPW + WDTHOLD; // Stop WDT
-P1DIR |= 0x01; // P1.0 output
-TACCTL0 = CCIE; // TACCR0 interrupt enabled
-TACCR0 = 50000;
-TACTL = TASSEL_2 + MC_1; // SMCLK, up mode
-for(;;){_BIS_SR(GIE);}
+    
+    WDTCTL = WDTPW + WDTTMSEL + WDTCNTCL + WDTIS0;                 // Start watchdog in timer mode
+    IE1 |= WDTIE;
+    
+    P1DIR |= BIT0; // P1.0 output
+
+    __bis_SR_register(LPM0 + GIE);
 }
+
 // Timer A0 interrupt service routine
-#pragma vector=TIMER0_A0_VECTOR
-__interrupt void Timer_A (void)
+#pragma vector=WDT_VECTOR
+__interrupt void WDTinterrupt (void)
 {
-if (a == 10)
-{P1OUT ^= 0x01; a = 0;}
-else{a++;}
+
+P1OUT ^= BIT0;
+
 }
