@@ -3,23 +3,19 @@ int a = 0;
 
 
 void main(void) {
-WDTCTL = WDTPW + WDTIS1 + WDTIS0; // Stop WDT
-
-
+WDTCTL = WDTPW + WDTCNTCL;
 P1DIR |= 0x01; // P1.0 output
 TACCTL0 = CCIE; // TACCR0 interrupt enabled
-TACCR0 = 50000;
-TACTL = TASSEL_2 + MC_1; // SMCLK, up mode
-
-for(;;){_BIS_SR(GIE);}
-
+TACCR0 = 30000;
+TACTL = TASSEL_2 | MC_1; // SMCLK, up mode
+__bis_SR_register(LPM0_bits | GIE);
 
 }
 // Timer A0 interrupt service routine
 #pragma vector=TIMER0_A0_VECTOR
 __interrupt void Timer_A (void)
 {
-    WDTCTL = WDTPW + WDTCNTCL ;
+    WDTCTL = WDTPW | WDTCNTCL;
 if (a == 50){
     P1OUT ^= 0x01; 
     a = 0;
