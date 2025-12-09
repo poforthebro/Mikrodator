@@ -1,7 +1,7 @@
 [
    {
-      "directory" : "/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/TASK2_mac/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2031/ccs/ccs_base/msp430/include\" -I\"/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/TASK2_mac\" -I\"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430G2553__ -xc",
-      "file"      : "/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/TASK2_mac/main.c"
+      "directory" : "/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/TASK2_MAC/Debug",
+      "command"   : "clang++ -I\"/Applications/ti/ccs2031/ccs/ccs_base/msp430/include\" -I\"/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/TASK2_MAC\" -I\"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430G2553__ -xc",
+      "file"      : "/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/TASK2_MAC/main.c"
    }
 ]

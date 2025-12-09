@@ -3,14 +3,16 @@
 
 void main(void)
 {
-    
-    WDTCTL = WDTPW + WDTTMSEL + WDTCNTCL + WDTIS0;                 // Start watchdog in timer mode
-    IE1 |= WDTIE;
-    
-    P1DIR |= BIT0; // P1.0 output
-    P1OUT &= BIT0;
 
-    __bis_SR_register(LPM0 + GIE);
+    // Change WDTCTL = WDTIS1 + WDTIS0 to set different frequencies
+    WDTCTL = WDTPW + WDTTMSEL + WDTCNTCL;                 // Start watchdog in timer mode 
+
+
+    IE1 |= WDTIE;   // Enable Watchdog interrupt
+
+    P1DIR |= 0x01; // P1.0 output
+
+    __bis_SR_register(LPM0_bits + GIE);
 }
 
 // Timer A0 interrupt service routine
@@ -18,6 +20,6 @@ void main(void)
 __interrupt void WDTinterrupt(void)
 {
 
-P1OUT ^= BIT0;
+    P1OUT ^= 0x01;
 
 }

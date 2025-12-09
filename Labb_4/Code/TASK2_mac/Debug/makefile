@@ -118,34 +118,34 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-TASK2.out 
+TASK2_MAC.out 
 
 EXE_OUTPUTS__QUOTED += \
-"TASK2.out" 
+"TASK2_MAC.out" 
 
 BIN_OUTPUTS += \
-TASK2.txt 
+TASK2_MAC.txt 
 
 BIN_OUTPUTS__QUOTED += \
-"TASK2.txt" 
+"TASK2_MAC.txt" 
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "TASK2.out" secondary-outputs
+	@$(MAKE) --no-print-directory -Onone "TASK2_MAC.out" secondary-outputs
 
 # Tool invocations
-TASK2.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+TASK2_MAC.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: MSP430 Linker'
-	"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TASK2.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs2031/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TASK2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TASK2.out" $(ORDERED_OBJS)
+	"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TASK2_MAC.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs2031/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TASK2_MAC_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TASK2_MAC.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
-TASK2.txt: $(EXE_OUTPUTS)
+TASK2_MAC.txt: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: MSP430 Hex Utility'
-	"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "TASK2.txt" $(EXE_OUTPUTS__QUOTED)
+	"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "TASK2_MAC.txt" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
