@@ -9,6 +9,15 @@
                 "name": "Task_2",
                 "resourceId": "/Task_2"
             }
+        },
+        {
+            "name": "Task_3_Red",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Task_3_Red",
+                "resourceId": "/Task_3_Red"
+            }
         }
     ]
 }
