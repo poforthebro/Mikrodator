@@ -1,7 +1,7 @@
 [
    {
-      "directory" : "/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/Task_3_Green/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2031/ccs/ccs_base/msp430/include\" -I\"/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/Task_3_Green\" -I\"/Applications/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430G2553__ -xc",
-      "file"      : "/Users/java_se/Documents/GitHub/Mikrodator/Labb_4/Code/Task_3_Green/main.c"
+      "directory" : "C:/Users/Eve/Documents/GitHub/Mikrodator/Labb_4/Code/Task_3_Green/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2031/ccs/ccs_base/msp430/include\" -I\"C:/Users/Eve/Documents/GitHub/Mikrodator/Labb_4/Code/Task_3_Green\" -I\"C:/ti/ccs2031/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430G2553__ -xc",
+      "file"      : "C:/Users/Eve/Documents/GitHub/Mikrodator/Labb_4/Code/Task_3_Green/main.c"
    }
 ]
