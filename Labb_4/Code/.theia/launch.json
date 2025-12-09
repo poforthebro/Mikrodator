@@ -9,6 +9,24 @@
                 "name": "Task_2",
                 "resourceId": "/Task_2"
             }
+        },
+        {
+            "name": "Task_3_Green",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Task_3_Green",
+                "resourceId": "/Task_3_Green"
+            }
+        },
+        {
+            "name": "TASK3_Green_Mac",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "TASK3_Green_Mac",
+                "resourceId": "/TASK3_Green_Mac"
+            }
         }
     ]
 }
