@@ -5,7 +5,7 @@ void main(void)
 {
 
     // Change WDTCTL = WDTIS1 + WDTIS0 to set different frequencies
-    WDTCTL = WDTPW + WDTTMSEL + WDTCNTCL;                 // Start watchdog in timer mode 
+    WDTCTL = WDTPW + WDTTMSEL + WDTCNTCL + WDTIS1 + WDTIS0;                 // Start watchdog in timer mode 
 
 
     IE1 |= WDTIE;   // Enable Watchdog interrupt

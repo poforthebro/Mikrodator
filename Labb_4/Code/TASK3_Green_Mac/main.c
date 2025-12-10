@@ -2,8 +2,8 @@
 
 #include <msp430g2553.h>
 
-int sendData = 0x72;
-int receiveData = 0x67;
+int sendData = 0x72; // "r"
+int receiveData = 0x67; // "g"
 
 
 int main(void)
