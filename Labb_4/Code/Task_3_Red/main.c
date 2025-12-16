@@ -1,5 +1,4 @@
 #include <msp430g2553.h>
-int a=0;
 int g = 0x67;
 
 int main(void)
@@ -43,10 +42,7 @@ int main(void)
 #pragma vector=TIMER0_A0_VECTOR
 __interrupt void Timer_A (void)
 {
-    if(UCA0TXIFG){
     UCA0TXBUF = g;
-    }
-
 }
 #pragma vector=USCIAB0RX_VECTOR
 __interrupt void ISR(void){
